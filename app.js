@@ -22,9 +22,6 @@ async function sendAllEnv() {
   
   sendAllEnv();
 
-
-
-
 const server = http.createServer((req, res) => {
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
